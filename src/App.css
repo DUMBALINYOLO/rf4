@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header form {
+  font-size: calc(5px + 1vmin);
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  justify-content: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.aside-menu {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 260px;
+}
+
+.menu-marker {
+	width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+	cursor: pointer;
+}
+
+#action-btns {
+	display: flex;
+	flex-direction: column;
+}
+
+.close-menu::before {
+  content: 'x';
+  color: #fff;
+  font-weight: 300;
+  font-family: Arial, sans-serif;
+	cursor: pointer;
+	float: right;
+}
